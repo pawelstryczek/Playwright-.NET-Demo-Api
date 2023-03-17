@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<!-- NUnit adapter -->
+	<NUnit>
+		<NumberOfTestWorkers>2</NumberOfTestWorkers>
+	</NUnit>
+	<TestRunParameters>
+		<Parameter name="webApiUrl" value="https://jsonplaceholder.typicode.com" />
+	</TestRunParameters>
+	<!-- General run configuration -->
+	<RunConfiguration>
+		<EnvironmentVariables>
+			<!-- For debugging selectors, it's recommend to set the following environment variable -->
+			<DEBUG>pw:api</DEBUG>
+		</EnvironmentVariables>
+	</RunConfiguration>
+
+</RunSettings>
